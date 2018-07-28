@@ -21,6 +21,7 @@ regions:
   slider: 'Slider'
   page_title: 'Page Title'
   content: 'Content'
+  frontpagecontent: 'Front page content'
   sidebar_first: 'Left Sidebar'
   sidebar_second: 'Right Sidebar'
   footer: 'Footer'
