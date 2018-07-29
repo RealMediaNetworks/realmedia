@@ -22,6 +22,7 @@
         "drupal/admin_toolbar": "^1.24",
         "drupal/backup_migrate": "^4.0",
         "drupal/block_content_permissions": "^1.6",
+        "drupal/ckeditor_bootstrap_buttons": "^1.1",
         "drupal/console": "^1.0.2",
         "drupal/core": "~8.5.3",
         "drupal/devel": "^1.2",

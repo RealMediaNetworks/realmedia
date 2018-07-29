@@ -2,9 +2,9 @@ langcode: en
 status: true
 dependencies:
   theme:
-    - drupal8_zymphonies_theme
-id: drupal8_zymphonies_theme_local_actions
-theme: drupal8_zymphonies_theme
+    - real_theme
+id: real_theme_local_actions
+theme: real_theme
 region: auto_hidden_block
 weight: 20
 provider: null

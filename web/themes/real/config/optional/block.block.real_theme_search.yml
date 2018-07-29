@@ -4,9 +4,9 @@ dependencies:
   module:
     - search
   theme:
-    - drupal8_zymphonies_theme
-id: drupal8_zymphonies_theme_search
-theme: drupal8_zymphonies_theme
+    - real_theme
+id: real_theme_search
+theme: real_theme
 region: footer_first
 weight: -1
 provider: null

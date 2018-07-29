@@ -4,9 +4,9 @@ dependencies:
   module:
     - system
   theme:
-    - drupal8_zymphonies_theme
-id: drupal8_zymphonies_theme_powered
-theme: drupal8_zymphonies_theme
+    - real_theme
+id: real_theme_powered
+theme: real_theme
 region: auto_hidden_block
 weight: -10
 provider: null

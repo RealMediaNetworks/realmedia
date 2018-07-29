@@ -4,9 +4,9 @@ dependencies:
   module:
     - system
   theme:
-    - drupal8_zymphonies_theme
-id: drupal8_zymphonies_theme_branding
-theme: drupal8_zymphonies_theme
+    - real_theme
+id: real_theme_branding
+theme: real_theme
 region: header
 weight: 0
 provider: null

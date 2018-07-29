@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f150cbb9dcf69c3f65660eaa429b6c24",
+    "content-hash": "76d30fca5d77e6f1d007bd65202c7488",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1787,6 +1787,53 @@
             "homepage": "https://www.drupal.org/project/block_content_permissions",
             "support": {
                 "source": "http://cgit.drupalcode.org/block_content_permissions"
+            }
+        },
+        {
+            "name": "drupal/ckeditor_bootstrap_buttons",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/ckeditor_bootstrap_buttons",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/ckeditor_bootstrap_buttons-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "77f2481b211502230b543d33388b1e5c923a8b6b"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1488359583",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "abu-zakham",
+                    "homepage": "https://www.drupal.org/user/2836067"
+                }
+            ],
+            "description": "This plugin adds bootstrap buttons feature to the editor.",
+            "homepage": "https://www.drupal.org/project/ckeditor_bootstrap_buttons",
+            "support": {
+                "source": "http://cgit.drupalcode.org/ckeditor_bootstrap_buttons"
             }
         },
         {
