@@ -2,6 +2,15 @@
   <nav class="navbar">
       <h1 class="sitename">Real Media</h1>
       {# <a a href="/" class="navbar-brand"><img class="logo" src="{{ base_path ~ directory }}/logo.jpg" alt="Inicio" /></a> #}
+    <div class="menutop d-none d-lg-block">
+        <a href="/">Home</a>
+        <a href="{{ url('<front>') }}productos">Productos</a>
+        <a href="{{ url('<front>') }}soluciones">Soluciones</a>
+        <a href="{{ url('<front>') }}casos">Casos de éxito</a>
+        <a href="{{ url('<front>') }}clientes">Clientes</a>
+        <a href="{{ url('<front>') }}contacto">Contáctanos</a>
+    </div>
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>

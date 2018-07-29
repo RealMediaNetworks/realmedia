@@ -69,7 +69,18 @@ a { color: #ef3340;}
 a:hover { color: #F8935A;}
 a.is-active { color: #F8935A;}
 
-.content { padding: 10px 15px 50px 15px; }
+.content { padding: 30px 15px 50px 15px; }
+
+.block { padding: 20px 0; }
+
+.menutop a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.menutop a:hover {
+  color: #ef3340;
+}
 
 .footer {
   background-color: #0a2239;
