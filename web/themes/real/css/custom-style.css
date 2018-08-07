@@ -204,3 +204,22 @@ ul.social li a {
 /* Botones starts */
 .form-actions { margin: 5px 0; }
 /* Botones ends */
+
+/* Contact form starts */
+
+.form-textarea {
+  margin: 0;
+  padding: 9px;
+  width: 100%;
+  background: rgba(0,0,0,0.1);
+  border: 1px solid transparent;
+  border-radius: 6px;
+}
+input, textarea {
+  padding: 9px;
+  background: rgba(0,0,0,0.1);
+  border: 1px solid transparent;
+  border-radius: 6px;
+}
+
+/* Contact form ends */
