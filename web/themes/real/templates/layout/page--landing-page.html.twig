@@ -1,4 +1,4 @@
-<div class="navbar-dark" style="background-color: #0a2239;">
+<div class="navbar-dark" style="background-color: #1a1919;">
   <nav class="navbar">
       <h1 class="sitename">Real Media</h1>
       {# <a a href="/" class="navbar-brand"><img class="logo" src="{{ base_path ~ directory }}/logo.jpg" alt="Inicio" /></a> #}
@@ -89,14 +89,11 @@
   <!---End Messages -->
 </header>
 
-  <!-- start container -->
-  <div class="container content">
-    <div class="row">
+<!-- start container -->
       {% if page.content %}
-            {{ page.content }} oh yeah!
+        {{ page.content }}
       {% endif %}
-    </div>      
-  </div><!--end container -->
+<!-- end container -->
 
   <div class="footer text-center">
     <div class="container">
@@ -107,3 +104,9 @@
       </div>
     </div>
   </div> 
+
+
+{# {{ dump() }}
+{{ dump(variable_name) }}
+{{ vardumper(variable_name) }}
+ #}

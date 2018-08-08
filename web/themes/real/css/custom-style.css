@@ -37,10 +37,8 @@ nav img {
 }
 
 .sitename {
-  color: #ef3340;
-  text-transform: uppercase;
+  color: #fff;
   padding: 10px 10px 0 30px;
-  text-shadow: 0 1px 2px #d5dce2;
 }
 
 /* Toggled menu */
@@ -71,7 +69,7 @@ a.is-active { color: #F8935A;}
 
 .content { padding: 30px 15px 50px 15px; }
 
-.block { padding: 20px 0; }
+/* .block { padding: 20px 0; } */
 
 .menutop a {
   color: #fff;
@@ -83,7 +81,7 @@ a.is-active { color: #F8935A;}
 }
 
 .footer {
-  background-color: #0a2239;
+  background-color: #1a1919;
   color: aliceblue;
   padding: 40px 0 30px 0;
 }
@@ -223,3 +221,26 @@ input, textarea {
 }
 
 /* Contact form ends */
+
+
+/* Styles starts */
+.negro {
+  background-color: #1a1919;
+  color: #fff;
+  padding: 60px 60px 60px 60px;
+}
+
+.papel {
+  background: url(/themes/real/images/papel.png);
+  padding: 60px 60px 60px 60px;
+}
+.arena {
+  background: url(/themes/real/images/arena.png);
+  padding: 60px 60px 60px 60px;
+}
+/* Styles ends */
+
+.region {
+  margin: 0;
+  padding: 0;
+}
