@@ -244,3 +244,17 @@ input, textarea {
   margin: 0;
   padding: 0;
 }
+
+/** Banner **/
+.banner {
+  text-align: center;
+  line-height: 160%;
+  padding: 190px 0;
+}
+
+.banner h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+/** Banner ends **/
