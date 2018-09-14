@@ -250,6 +250,7 @@ input, textarea {
   text-align: center;
   line-height: 160%;
   padding: 190px 0;
+  height: 100%;
 }
 
 .banner h2 {
