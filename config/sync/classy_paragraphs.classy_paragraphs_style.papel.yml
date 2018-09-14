@@ -1,0 +1,7 @@
+uuid: 093e6806-8cac-4b8c-b830-2fe8d5775f74
+langcode: en
+status: true
+dependencies: {  }
+id: papel
+label: Papel
+classes: papel

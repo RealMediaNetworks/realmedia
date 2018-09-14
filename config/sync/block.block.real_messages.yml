@@ -1,0 +1,22 @@
+uuid: cc925efd-ed80-413a-9436-5371d42fb714
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - real
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: real_messages
+theme: real
+region: banner
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,19 @@
+uuid: d034b6a5-09ba-442c-9f3a-f076f54e0b1a
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_parrafo_izquierdo
+field_name: field_parrafo_izquierdo
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

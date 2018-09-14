@@ -1,0 +1,8 @@
+uuid: 6b65ae5a-aa68-40d6-8076-b6b262a0370e
+langcode: en
+status: true
+dependencies: {  }
+id: block_one_column
+label: 'Block one column'
+revision: 0
+description: 'A block with one column'

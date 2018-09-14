@@ -1,0 +1,97 @@
+uuid: 11ff0edc-0e64-46d1-95bb-847543a0213f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.2_parrafos.field_parrafo_derecho
+    - field.field.paragraph.2_parrafos.field_parrafo_izquierdo
+    - field.field.paragraph.2_parrafos.field_reference_field
+    - paragraphs.paragraphs_type.2_parrafos
+  module:
+    - field_group
+    - text
+third_party_settings:
+  field_group:
+    group_columnas:
+      children:
+        - group_parrafo_izquierdo
+        - group_parrafo_derecho
+        - group_estilo
+      parent_name: ''
+      weight: 1
+      format_type: tabs
+      format_settings:
+        id: ''
+        classes: ''
+        direction: horizontal
+      label: Columnas
+    group_parrafo_izquierdo:
+      children:
+        - field_parrafo_izquierdo
+      parent_name: group_columnas
+      weight: 1
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: open
+        description: ''
+        required_fields: true
+      label: 'Párrafo izquierdo'
+    group_parrafo_derecho:
+      children:
+        - field_parrafo_derecho
+      parent_name: group_columnas
+      weight: 2
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: 'Párrafo derecho'
+    group_estilo:
+      children:
+        - field_reference_field
+      parent_name: group_columnas
+      weight: 3
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: Estilo
+id: paragraph.2_parrafos.default
+targetEntityType: paragraph
+bundle: 2_parrafos
+mode: default
+content:
+  field_parrafo_derecho:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_parrafo_izquierdo:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_reference_field:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

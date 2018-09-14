@@ -1,0 +1,21 @@
+uuid: f708bd1a-3aba-4afb-a80d-f4b069fa6f6c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_parrafo_izquierdo
+    - paragraphs.paragraphs_type.2_parrafos
+  module:
+    - text
+id: paragraph.2_parrafos.field_parrafo_izquierdo
+field_name: field_parrafo_izquierdo
+entity_type: paragraph
+bundle: 2_parrafos
+label: 'Párrafo izquierdo'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

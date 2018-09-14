@@ -1,0 +1,32 @@
+uuid: 1b126d74-0fe9-4200-a7c5-9d029f066689
+langcode: en
+status: true
+dependencies: {  }
+id: editor
+label: Editor
+weight: 3
+is_admin: null
+permissions:
+  - 'access contextual links'
+  - 'access toolbar'
+  - 'create article content'
+  - 'create basic block content'
+  - 'create page content'
+  - 'create two_column block content'
+  - 'create url aliases'
+  - 'delete any article content'
+  - 'delete any basic block content'
+  - 'delete any page content'
+  - 'delete any two_column block content'
+  - 'delete own article content'
+  - 'delete own page content'
+  - 'edit any article content'
+  - 'edit any page content'
+  - 'revert article revisions'
+  - 'revert page revisions'
+  - 'update any basic block content'
+  - 'update any two_column block content'
+  - 'use text format full_html'
+  - 'view article revisions'
+  - 'view page revisions'
+  - 'view the administration theme'

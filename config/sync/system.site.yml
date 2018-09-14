@@ -1,0 +1,14 @@
+uuid: 95f2cdc6-13f0-48e3-b7bf-226e1e0c6d14
+name: 'Real Media Network'
+mail: admin@admin
+slogan: 'Drupal developers'
+page:
+  403: ''
+  404: ''
+  front: /node/11
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

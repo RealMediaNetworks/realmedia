@@ -1,0 +1,8 @@
+uuid: 7c16fd0d-2aae-4f7f-9267-3adf5c3b1868
+langcode: en
+status: true
+dependencies: {  }
+id: block_two_columns
+label: 'Block Two Columns'
+revision: 0
+description: 'A block with two columns'

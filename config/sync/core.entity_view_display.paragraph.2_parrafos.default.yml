@@ -1,0 +1,39 @@
+uuid: 465ae04f-ec9b-457e-b894-bfcd0bb2b23b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.2_parrafos.field_parrafo_derecho
+    - field.field.paragraph.2_parrafos.field_parrafo_izquierdo
+    - field.field.paragraph.2_parrafos.field_reference_field
+    - paragraphs.paragraphs_type.2_parrafos
+  module:
+    - text
+id: paragraph.2_parrafos.default
+targetEntityType: paragraph
+bundle: 2_parrafos
+mode: default
+content:
+  field_parrafo_derecho:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_parrafo_izquierdo:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_reference_field:
+    weight: 2
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden: {  }

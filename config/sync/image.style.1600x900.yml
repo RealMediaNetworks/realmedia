@@ -1,0 +1,14 @@
+uuid: 73cf0b24-80e5-4ae4-b561-e8b4d3fd27d0
+langcode: en
+status: true
+dependencies: {  }
+name: 1600x900
+label: 1600x900
+effects:
+  99aa4543-2035-4423-a4bd-c4b013de2a6d:
+    uuid: 99aa4543-2035-4423-a4bd-c4b013de2a6d
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1600
+      height: 900

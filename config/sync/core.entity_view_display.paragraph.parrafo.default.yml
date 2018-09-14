@@ -1,0 +1,24 @@
+uuid: 4e214427-3b92-4020-8da3-345a6f8a56fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.parrafo.field_parrafo
+    - field.field.paragraph.parrafo.field_reference_field
+    - paragraphs.paragraphs_type.parrafo
+  module:
+    - text
+id: paragraph.parrafo.default
+targetEntityType: paragraph
+bundle: parrafo
+mode: default
+content:
+  field_parrafo:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  field_reference_field: true

@@ -1,0 +1,7 @@
+uuid: 3bcaccc4-9f74-4589-b5b9-ed2549546d05
+langcode: en
+status: true
+dependencies: {  }
+id: negro
+label: Negro
+classes: negro

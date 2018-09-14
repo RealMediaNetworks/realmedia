@@ -1,0 +1,11 @@
+uuid: d02862e5-5472-435c-b8ea-e3af3f8bdf91
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:8758bd20-60d3-4cca-a26b-30979d1fe10b'
+id: 2_parrafos
+label: 'Dos párrafos'
+icon_uuid: 8758bd20-60d3-4cca-a26b-30979d1fe10b
+description: ''
+behavior_plugins: {  }

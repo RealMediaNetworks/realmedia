@@ -1,0 +1,11 @@
+uuid: 35804ef2-320e-4ebb-b418-b025442bac19
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:b04871b4-ead1-47dc-825d-dc20a62b1855'
+id: parrafo
+label: Párrafo
+icon_uuid: b04871b4-ead1-47dc-825d-dc20a62b1855
+description: ''
+behavior_plugins: {  }

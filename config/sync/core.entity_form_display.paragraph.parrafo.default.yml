@@ -1,0 +1,75 @@
+uuid: 9076ba54-58ae-4404-9573-a99dcfb69f97
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.parrafo.field_parrafo
+    - field.field.paragraph.parrafo.field_reference_field
+    - paragraphs.paragraphs_type.parrafo
+  module:
+    - field_group
+    - text
+third_party_settings:
+  field_group:
+    group_parrafo:
+      children:
+        - group_texto
+        - group_estilo
+      parent_name: ''
+      weight: 0
+      format_type: tabs
+      format_settings:
+        label: Párrafo
+        direction: horizontal
+        id: ''
+        classes: ''
+      label: Párrafo
+    group_texto:
+      children:
+        - field_parrafo
+      parent_name: group_parrafo
+      weight: 20
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: open
+        description: ''
+        required_fields: true
+      label: Texto
+    group_estilo:
+      children:
+        - field_reference_field
+      parent_name: group_parrafo
+      weight: 21
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: Estilo
+id: paragraph.parrafo.default
+targetEntityType: paragraph
+bundle: parrafo
+mode: default
+content:
+  field_parrafo:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_reference_field:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

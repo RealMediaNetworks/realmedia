@@ -1,0 +1,7 @@
+uuid: 7f35b6a0-04da-4a3a-9f23-09b05490fd29
+langcode: en
+status: true
+dependencies: {  }
+id: arena
+label: Arena
+classes: arena

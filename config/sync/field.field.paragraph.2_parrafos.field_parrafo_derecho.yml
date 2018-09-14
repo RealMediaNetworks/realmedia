@@ -1,0 +1,21 @@
+uuid: bbb3f4d4-7f67-4ca9-b0fb-f79a4965466c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_parrafo_derecho
+    - paragraphs.paragraphs_type.2_parrafos
+  module:
+    - text
+id: paragraph.2_parrafos.field_parrafo_derecho
+field_name: field_parrafo_derecho
+entity_type: paragraph
+bundle: 2_parrafos
+label: 'Párrafo derecho'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,14 @@
+uuid: 0de49b72-e467-49da-b42c-7585ddc6366d
+langcode: en
+status: true
+dependencies: {  }
+name: 768x432
+label: 768x432
+effects:
+  971990be-cc03-457e-8503-3a8926010235:
+    uuid: 971990be-cc03-457e-8503-3a8926010235
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 768
+      height: 432

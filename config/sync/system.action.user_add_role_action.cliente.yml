@@ -1,0 +1,14 @@
+uuid: a167a5e7-e7d4-48c3-bca9-65812255485e
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.cliente
+  module:
+    - user
+id: user_add_role_action.cliente
+label: 'Add the Cliente role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: cliente

@@ -1,0 +1,21 @@
+uuid: 2f79f9d9-2d54-4cc1-b6db-aaca07100ace
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_parrafo
+    - paragraphs.paragraphs_type.parrafo
+  module:
+    - text
+id: paragraph.parrafo.field_parrafo
+field_name: field_parrafo
+entity_type: paragraph
+bundle: parrafo
+label: párrafo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

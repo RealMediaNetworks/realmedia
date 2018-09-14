@@ -1,0 +1,23 @@
+uuid: 043f7c71-f610-496c-af6e-aaa187e3a66f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_reference_field
+    - paragraphs.paragraphs_type.2_parrafos
+id: paragraph.2_parrafos.field_reference_field
+field_name: field_reference_field
+entity_type: paragraph
+bundle: 2_parrafos
+label: Estilo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:classy_paragraphs_style'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

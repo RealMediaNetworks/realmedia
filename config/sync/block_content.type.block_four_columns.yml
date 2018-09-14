@@ -1,0 +1,8 @@
+uuid: ef1ab7df-26bf-44de-b62b-6300e6102c0e
+langcode: en
+status: true
+dependencies: {  }
+id: block_four_columns
+label: 'Block Four Columns'
+revision: 0
+description: 'A block with four columns'

@@ -1,0 +1,30 @@
+uuid: f99538ba-4316-47c7-8712-8fab3968127f
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.contact
+  module:
+    - system
+    - webform
+  theme:
+    - real
+id: webform
+theme: real
+region: content
+weight: -7
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Webform
+  provider: webform
+  label_display: '0'
+  webform_id: contact
+  default_data: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: /contacto
+    negate: false
+    context_mapping: {  }
