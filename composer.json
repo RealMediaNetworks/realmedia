@@ -26,7 +26,7 @@
         "drupal/ckeditor_bootstrap_buttons": "^1.1",
         "drupal/classy_paragraphs": "^1.0@beta",
         "drupal/console": "^1.0.2",
-        "drupal/core": "~8.5.3",
+        "drupal/core": "^8.6",
         "drupal/devel": "^1.2",
         "drupal/entity_browser": "^1.5",
         "drupal/extlink": "^1.1",
@@ -47,7 +47,7 @@
         "webmozart/path-util": "^2.3"
     },
     "require-dev": {
-        "webflo/drupal-core-require-dev": "~8.5.3"
+        "webflo/drupal-core-require-dev": "^8.6.1"
     },
     "conflict": {
         "drupal/drupal": "*"
