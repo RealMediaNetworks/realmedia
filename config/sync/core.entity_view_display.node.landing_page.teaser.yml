@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.landing_page.field_imagen
     - field.field.node.landing_page.field_paragraph
     - node.type.landing_page
   module:
@@ -19,4 +20,5 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_imagen: true
   field_paragraph: true
